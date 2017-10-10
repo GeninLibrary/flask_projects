@@ -1,0 +1,21 @@
+HTTP Methods:
+
+The "GET" Method: The GET method is used to request information from a server. When you type in the URL of a 
+website you're sending a GET request to retrive that data. 
+
+		We can also use GET requests with forms when we want to pass insensitve information to a 
+		server (when you Google an word or phrase, for example). A form allows a client to send a
+		GET request to server, asking for specific information. 
+
+
+The "POST" Method: POST passes data behind the scenes in the HTTP request message body. These request are 
+never cached, not saved in history, can't be bookmarked, and aren't limited by data restrictions (
+meaning you can send BIG files easily). Most forms use POST requests to send data. In 
+		
+		In general, most forms should always be sent using POST (not GET). The only case otherwise
+		is if the user needs to preserve the query string (as in seeing what you've already searched
+		for in Google). 
+
+
+PUT, PATCH, DELETE: These exist for the express purpose of designing API's. These are support methods in 
+your HTML code, and only work when being handles by Javascript Ajax requests. 

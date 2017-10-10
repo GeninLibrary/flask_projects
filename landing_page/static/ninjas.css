@@ -1,0 +1,16 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width: 700px;
+    height: 200px;
+    background-color: maroon;
+    color: white
+}
+
+p {
+    font: italic;
+    font-size: 25px;
+}

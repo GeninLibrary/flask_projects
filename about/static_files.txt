@@ -1,0 +1,10 @@
+Static Content: any content that can be served to the client without being modified, generated, or processed
+		by the server. (Every framework will have its own way of serving static content)
+
+Flask serves static content from a directory that must be called 'static'. This static folder will be used to 
+serve all of your stylesheets, images, and Javascript files.
+
+		(we can place a CSS, JS, or image directly into our static folder and then access them in our
+		 HTML file -- which we can render with flask)
+
+

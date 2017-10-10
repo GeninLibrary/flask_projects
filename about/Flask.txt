@@ -1,0 +1,19 @@
+Flask is a web framework that allows programmers to quickly create applications. It conveys a system of 
+commands to a backend server, using decorators (url variables like '/' and '@' and var names) to point the 
+backend to functions and files that the programmer wants tied to the webpage/application. 
+
+Think of Flask as a framework that allows programmers to put variables into a URL, which a server can then 
+interpret and act on. 
+
+
+Format:
+	
+		from flask import Flask
+		app = Flask(__name__)
+	
+		@app.route('/')
+	
+		def Function()...
+
+		app.run(debug = True)
+	

@@ -1,0 +1,33 @@
+Basic Routing:
+
+@app.route('route name/symbol here')
+
+
+Routes are key pieces of web applications. They are much like variables that you can tie to your application.
+
+The route name/decorator points the server towards a specific set of instructions, which tell the server how
+to interpret the data its being sent, the operations it needs to complete, and the response it should send
+back. 
+
+So the server follows the route and finds an instruction pamphlet that we (the programmer) wrote.
+
+-------------------------
+
+Every route has two parts: 
+				- HTTP method (GET, POST, PUT, PATCH, DELETE)	
+				- URL
+
+-------------------------
+
+HTTP methods: 
+
+				- GET: if no routes are mentioned 'GET' will be the default. 'GET' routes
+				       will mostly be used for serving pages or rendering templates.
+
+				- POST
+
+				- PUT
+
+				- PATCH
+
+				- DELETE  

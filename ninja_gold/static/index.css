@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding:10px
+}
+
+.wrapper {
+    width: 800px;
+    display: inline-block;
+}
+
+.main_content {
+    width: 800px;
+    display: inline-block;
+}
+
+.sub {
+    display: inline-block;
+}

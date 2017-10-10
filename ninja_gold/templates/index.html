@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Gold</title>
+    <link rel="stylesheet" type="text/css" href="../static/index.css">
+</head>
+<body>
+    <div class = "wrapper">
+        <p>Your gold: {{gold}} </p>   
+        <div class = "main_content">
+            <div class = "sub"> 
+                <h2>Farm</h2>
+                <p>(earns 10-20 gold)</p>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="farm">
+                    <input type="submit" value="Go to the farm!">
+                </form>
+            </div>
+            <div class = "sub">
+                <h2>Cave</h2>
+                <p>(earns 5-10 gold)</p>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="cave">
+                    <input type="submit" value="Go to the cave!">
+                </form>
+            </div>
+            <div class = "sub">
+                <h2>House</h2>
+                <p>(earns 2-5 gold)</p>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="house">
+                    <input type="submit" value="Go to the house!">
+                </form>
+            </div>
+            <div class = "sub">
+                <h2>Casino</h2>
+                <p>(earns/takes 0-50 gold)</p>
+                <form action="/process_money" method="post">
+                    <input type="hidden" name="building" value="casino">
+                    <input type="submit" value="Go to the casino!">
+                </form>
+            </div>
+        </div>
+        <p> Activities</p>
+        <textarea name="Activities" cols="100" rows="10"></textarea>
+    </div>
+</body>
+</html>
